@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0%;
+
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 20px;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 20px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer> p{
+            margin: 0px;
+        }
+
+
+        article{
+            background-color: gray;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+            padding: 4px;
+            margin: 10px;
+            text-indent: 10px;
+            border-radius: 10px;
+
+
+        }
+
+        article > aside{
+            background-color: rgb(170, 170, 170);
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        nav{
+            background-color: rgb(94, 93, 93);
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+
+        }
+
+        
+        
+        nav > ol{
+            padding: 0%;
+            margin: 0%;
+            list-style: none;
+            display: inline;
+            
+        }
+
+
+        nav> a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right:80px;
+            
+            
+        }
+
+       
+        
+        #nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover, #nav5:hover{
+            color: darkgray;
+
+        }
+
+        h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            
+            <a href="#">Link</a>  
+            <a href="#">Link</a>  
+            <a href="#">Link</a>  
+            <a href="#">Link</a>  
+            <a href="#">Link</a>  
+                
+            
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo facere, modi pariatur tempore, inventore voluptates quod repudiandae accusamus suscipit sint? Deleniti iusto obcaecati quasi sit ipsum molestias beatae maiores.</p>
+                <aside>
+                    Artigo escrito por mim mesmo
+                </aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quae sequi aperiam cum similique ea reiciendis. Eum iure harum maiores impedit esse tenetur beatae, unde, sequi nulla, aut inventore culpa?</p>
+                <aside>
+                    Artigo escrito por mim mesmo
+                </aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum officiis corrupti sequi. Similique dolore exercitationem reiciendis. Illum harum incidunt, explicabo quos ab iste doloremque. Voluptas officiis temporibus voluptatem corrupti voluptatibus.</p>
+                <aside>Artigo escrito por mim mesmo</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Guilherme Sousa</p>
+    </footer>
+</body>
+</html>
