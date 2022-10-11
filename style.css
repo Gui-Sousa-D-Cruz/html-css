@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Gelio';
+    src: url('fontes/Gelio Retsina.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Gelio', Helvetica, sans-serif;
+    color:rgb(212, 212, 161);
+    background-color: black;
+    
+}
+h1{
+    font-family: 'Gelio', Times, serif;
+    font-size: 3em;
+    color: rgb(180, 175, 125);
+    
+}
